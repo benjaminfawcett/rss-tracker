@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49cb3973-5abc-4ff8-91f9-22e5a81555ff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/RSSTrackerLayout.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/RSSTrackerLayout.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RSSTrackerLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RSSTrackerLayout.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,8 +23,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/RSSTrackerLayout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="185" column="99" selection-start-line="185" selection-start-column="99" selection-end-line="185" selection-end-column="99" />
+            <state>
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,7 +108,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -155,12 +155,12 @@
       <option name="presentableId" value="Default" />
       <updated>1572015556847</updated>
       <workItem from="1572015558287" duration="12398000" />
-      <workItem from="1572034668326" duration="2326000" />
+      <workItem from="1572034668326" duration="7416000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14724000" />
+    <option name="totallyTimeSpent" value="19814000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -215,18 +215,17 @@
     <entry file="file://$PROJECT_DIR$/src/addRSSLayout.java" />
     <entry file="file://$PROJECT_DIR$/src/test.java" />
     <entry file="file://$PROJECT_DIR$/src/test.form" />
+    <entry file="file://$PROJECT_DIR$/src/RSSTrackerLayout.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/RSSTrackerLayout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="185" column="99" selection-start-line="185" selection-start-column="99" selection-end-line="185" selection-end-column="99" />
+        <state>
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RSSTrackerLayout.form">
-      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
   </component>
   <component name="masterDetails">
