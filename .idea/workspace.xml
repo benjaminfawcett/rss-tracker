@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49cb3973-5abc-4ff8-91f9-22e5a81555ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/RSSTrackerLayout.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/RSSTrackerLayout.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RSSTrackerLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RSSTrackerLayout.java" afterDir="false" />
-    </list>
+    <list default="true" id="49cb3973-5abc-4ff8-91f9-22e5a81555ff" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +102,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
@@ -155,18 +152,17 @@
       <option name="presentableId" value="Default" />
       <updated>1572015556847</updated>
       <workItem from="1572015558287" duration="12398000" />
-      <workItem from="1572034668326" duration="7416000" />
+      <workItem from="1572034668326" duration="7585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19814000" />
+    <option name="totallyTimeSpent" value="19983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.25965664" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.25965664" />
       <window_info id="Structure" order="1" sideWeight="0.50208336" side_tool="true" weight="0.14520743" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -175,7 +171,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50208336" side_tool="true" weight="0.14520743" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28313252" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28313252" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
