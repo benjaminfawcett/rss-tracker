@@ -4,9 +4,21 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
+import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
+import java.net.URL;
+import javax.xml.soap.MessageFactory;
+import javax.xml.soap.MimeHeaders;
+import javax.xml.soap.SOAPBody;
+import javax.xml.soap.SOAPConnection;
+import javax.xml.soap.SOAPConnectionFactory;
+import javax.xml.soap.SOAPElement;
+import javax.xml.soap.SOAPEnvelope;
+import javax.xml.soap.SOAPHeader;
+import javax.xml.soap.SOAPMessage;
+import javax.xml.soap.SOAPPart;
 
 public class RSSTrackerLayout {
     private JList rssList;
@@ -61,16 +73,22 @@ public class RSSTrackerLayout {
                 rssList.setModel(rssListModel);
                 String newRSS = newURLField.getText();
                 // check if RSS feed already exists and add if not
-                if (!rssMap.get(currentCompany).contains(newRSS)) {
-                    rssMap.get(currentCompany).add(newRSS);
-                    setRSSList();
-                    // status indicator below add/remove
-                    addRemoveStatus.setForeground(Color.GREEN);
-                    addRemoveStatus.setText("RSS feed successfully added.");
+
+                if (validateRSS(newRSS)) {
+                    if (!rssMap.get(currentCompany).contains(newRSS)) {
+                        rssMap.get(currentCompany).add(newRSS);
+                        setRSSList();
+                        // status indicator below add/remove
+                        addRemoveStatus.setForeground(Color.GREEN);
+                        addRemoveStatus.setText("RSS feed successfully added.");
+                    } else {
+                        // status indicator if RSS feed already exists (do nothing else)
+                        addRemoveStatus.setForeground(Color.RED);
+                        addRemoveStatus.setText("RSS feed already exists for " + currentCompany + ".");
+                    }
                 } else {
-                    // status indicator if RSS feed already exists (do nothing else)
                     addRemoveStatus.setForeground(Color.RED);
-                    addRemoveStatus.setText("RSS feed already exists for " + currentCompany + ".");
+                    addRemoveStatus.setText("RSS feed invalid.");
                 }
 
                 // reset text field
@@ -139,6 +157,37 @@ public class RSSTrackerLayout {
                 setRSSList();
             }
         });
+    }
+
+    public boolean validateRSS(String url) {
+        // uses W3 RSS validator to confirm the provided link is an RSS feed
+        SOAPMessage soapResponse = null;
+        String msg = "";
+        // connects to the W3 API with the requested link
+        try {
+            SOAPConnectionFactory soapConnectionFactory = SOAPConnectionFactory.newInstance();
+            SOAPConnection soapConnection = soapConnectionFactory.createConnection();
+            soapResponse = soapConnection.get("http://validator.w3.org/feed/check.cgi?output=soap12&url=" + url);
+
+            // converts SOAP message to string
+            ByteArrayOutputStream out = new ByteArrayOutputStream();
+            soapResponse.writeTo(out);
+            msg = new String(out.toByteArray());
+
+            soapConnection.close();
+        } catch (Exception e) {
+            System.out.println("Exception : " + e);
+        }
+
+        // checks to see if the SOAP request indicates valid RSS feed
+        if (soapResponse == null) {
+            return false;
+        } else if (msg.contains("<m:validity>true</m:validity>")) {
+            // the above string is the confirmation that a link is a valid RSS feed in SOAP message
+            return true;
+        }
+
+        return false;
     }
 
     public static void main(String[] args) {
