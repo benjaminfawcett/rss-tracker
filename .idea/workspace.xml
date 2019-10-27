@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="RSSTracker:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="49cb3973-5abc-4ff8-91f9-22e5a81555ff" name="Default Changelist" comment="" />
+    <list default="true" id="49cb3973-5abc-4ff8-91f9-22e5a81555ff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/RSSTrackerLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RSSTrackerLayout.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/RSSTrackerLayout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="380">
+              <caret line="265" column="35" selection-start-line="265" selection-start-column="35" selection-end-line="265" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,17 +160,18 @@
       <option name="presentableId" value="Default" />
       <updated>1572015556847</updated>
       <workItem from="1572015558287" duration="12398000" />
-      <workItem from="1572034668326" duration="7585000" />
+      <workItem from="1572034668326" duration="8388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19983000" />
+    <option name="totallyTimeSpent" value="20786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.25965664" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.25965664" />
       <window_info id="Structure" order="1" sideWeight="0.50208336" side_tool="true" weight="0.14520743" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -171,7 +180,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50208336" side_tool="true" weight="0.14520743" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28313252" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28313252" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -216,7 +225,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RSSTrackerLayout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="380">
+          <caret line="265" column="35" selection-start-line="265" selection-start-column="35" selection-end-line="265" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -229,10 +239,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>RSSTracker:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

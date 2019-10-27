@@ -256,6 +256,16 @@ public class RSSTrackerLayout {
             String month = message.substring(message.indexOf("month") + 8, message.indexOf("month") + 10);
             String year = message.substring(message.indexOf("year") + 7, message.indexOf("year") + 11);
 
+
+            // checks cases with single digit day or month and corrects
+            if (day.substring(1).equals(",")) {
+                day = "0" + day.substring(0, 1);
+            }
+
+            if (month.substring(1).equals(",")) {
+                month = "0" + month.substring(0, 1);
+            }
+
             // returns formatted date for use in daysBetween
             return month + " " + day + " " + year;
         } else {
