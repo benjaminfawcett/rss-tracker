@@ -7,7 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49cb3973-5abc-4ff8-91f9-22e5a81555ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/RSSTrackerLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RSSTrackerLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSSTracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RSSTracker.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/RSSTrackerLayout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="265" column="35" selection-start-line="265" selection-start-column="35" selection-end-line="265" selection-end-column="35" />
+            <state relative-caret-position="455">
+              <caret line="344" lean-forward="true" selection-start-line="344" selection-end-line="344" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,8 +48,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setRSSL</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
@@ -61,6 +68,7 @@
         <option value="$PROJECT_DIR$/src/addRSSLayout.form" />
         <option value="$PROJECT_DIR$/src/addRSSLayout.java" />
         <option value="$PROJECT_DIR$/src/RSSTrackerLayout.form" />
+        <option value="$PROJECT_DIR$/src/RSSTrackerLayoutTest.java" />
         <option value="$PROJECT_DIR$/src/RSSTrackerLayout.java" />
       </list>
     </option>
@@ -86,7 +94,37 @@
             <path>
               <item name="RSSTracker" type="b2602c69:ProjectViewProjectNode" />
               <item name="RSSTracker" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RSSTracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RSSTracker" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RSSTracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RSSTracker" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="RSSTracker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RSSTracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RSSTracker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RSSTracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RSSTracker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RSSTracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RSSTracker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="RSSTrackerLayout" type="e9f4de52:FormNode" />
             </path>
           </expand>
           <select />
@@ -95,6 +133,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="119" />
@@ -102,6 +144,9 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="277" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -115,6 +160,14 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -127,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RSSTrackerLayout">
+  <component name="RunManager" selected="JUnit.RSSTrackerLayoutTest.validateRSS">
     <configuration name="RSSTrackerLayout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RSSTrackerLayout" />
       <module name="RSSTracker" />
@@ -142,8 +195,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyFirstJUnitJupiterTests" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="RSSTracker" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyFirstJUnitJupiterTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RSSTrackerLayoutTest.validateRSS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RSSTracker" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RSSTrackerLayoutTest" />
+      <option name="METHOD_NAME" value="validateRSS" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RSSTrackerLayoutTest.validateRSS" />
         <item itemvalue="Application.RSSTrackerLayout" />
         <item itemvalue="Application.addRSSLayout" />
       </list>
@@ -160,18 +235,23 @@
       <option name="presentableId" value="Default" />
       <updated>1572015556847</updated>
       <workItem from="1572015558287" duration="12398000" />
-      <workItem from="1572034668326" duration="8388000" />
+      <workItem from="1572034668326" duration="9645000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="RSSTrackerLayoutTest_validateRSS - 2019.10.27 at 20h 40m 15s.xml">
+      <configuration name="RSSTrackerLayoutTest.validateRSS" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20786000" />
+    <option name="totallyTimeSpent" value="22043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.25965664" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.25965664" />
       <window_info id="Structure" order="1" sideWeight="0.50208336" side_tool="true" weight="0.14520743" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -180,7 +260,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50208336" side_tool="true" weight="0.14520743" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28313252" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28313252" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -223,10 +303,21 @@
     <entry file="file://$PROJECT_DIR$/src/RSSTrackerLayout.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/RSSTrackerLayoutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/RSSTrackerLayout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="265" column="35" selection-start-line="265" selection-start-column="35" selection-end-line="265" selection-end-column="35" />
+        <state relative-caret-position="455">
+          <caret line="344" lean-forward="true" selection-start-line="344" selection-end-line="344" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
